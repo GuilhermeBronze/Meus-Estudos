@@ -1,0 +1,137 @@
+@font-face {
+    font-family:"idroid";
+    src: url("fontes/idroid.otf") format("opentype");
+}
+html{
+    font-size: 16pt;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    background-color: #B3F2DD;
+    margin: auto;
+    position: relative;
+}
+
+header{
+    background-image: linear-gradient(to bottom, #427AA1, #064789 );
+    color: white;
+    width: 100vw;
+    text-align: center;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.445);
+
+}
+header > section{
+    padding: 40px;
+}
+
+nav > a{
+    color: white;
+    text-decoration: none;
+    padding: 0 15px
+    
+}
+nav > a:hover{
+    text-decoration: underline;
+}
+nav{
+    text-align:left;
+    
+}
+
+
+
+
+h1{
+    font-family:'Times New Roman', Times, serif  
+}
+
+h2{
+    font-family: "idroid", 'Times New Roman', Times, serif;
+    background-image: linear-gradient(to right, #B3F2DD, #b3f2ddbd);
+    color: #285e4c;
+}
+
+main{
+    width: 75vw;
+    background-color: #f8f8f8 ;
+    border: 1px solid black;
+    padding: 10px;
+    margin: auto;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.384);
+}
+
+main > p{
+    text-indent: 18px;
+}
+
+a{
+    color: #285e4c;
+    text-decoration: none;
+    font-weight: bold;
+
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+picture{
+    display: flex;
+    justify-content: center;
+         
+}
+#span-bugdroid{
+    color: #285e4c;
+}
+img#bugdroid{
+    display: block;
+    margin: auto
+}
+#video{
+    background-color: #285e4c;
+    justify-content: center;
+    display: flex;
+    padding: 20px;
+}
+
+
+#aprender{
+    background-color: #B3F2DD;
+    border-radius: 10px;
+    text-indent: 15px;
+}
+#titulo-aprender{
+    color: white;
+    background-color: #3d8b71;
+    border-radius: 10px 10px 0 0;
+    padding: 5px 0 5px 20px;
+}
+
+#aprender > div{
+    padding: 0 10px 5px 10px;
+}
+
+.lista{
+    list-style-type: none;
+}
+.lista li::marker{
+    content: "✔️";
+    font-size: 1.2em;
+}
+.lista > li > a{
+    text-decoration: underline;
+    color: black;
+}
+.lista > li > a:hover{
+    color: #1a32b6;
+}
+
+footer{
+    position: absolute;
+    bottom: auto;
+    width: 100%;
+    text-align: center;
+    background-color: #064789;
+    color: white;
+    
+}
