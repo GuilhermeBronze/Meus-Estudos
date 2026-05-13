@@ -1,0 +1,34 @@
+div{
+    border: 1px dashed black;
+}
+
+.container{
+    
+    display: grid;
+    grid-template: 70px 40px 400px 40px / 1fr 2fr 1fr;
+    font-size: 15pt;
+    align-items: center;
+    justify-items: center;
+
+}
+
+.topo{
+    grid-area: 1/1/2/4;
+    width: ;
+}
+
+.menu{
+    grid-area: 2/1/3/4
+}
+
+.principal{
+    grid-area: 3/1/4/3;
+}
+
+.secundario{
+    grid-area: 3/3/4/4
+}
+
+.rodape{
+    grid-area: 4/1/5/4;
+}
